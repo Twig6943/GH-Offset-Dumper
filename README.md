@@ -9,7 +9,7 @@
 
 4.Click "Build"
 
-5.Click "Run workflow" and then "Run workflow" again
+5.Click "Run workflow" and then "Run workflow" (the green button)
 
 6.Wait for it to build & download the binaries once its done
 
