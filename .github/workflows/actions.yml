@@ -40,9 +40,9 @@ jobs:
           call "C:\MyVS\VC\Auxiliary\Build\vcvars64.bat" && ^
           cd GH-Offset-Dumper && ^
           msbuild GH-Offset-Dumper.sln /p:Configuration=Release /p:Platform=x64
-
+          
       - name: Upload Binaries
         uses: actions/upload-artifact@v4
         with:
           name: binaries
-          path:  GH-Offset-Dumper/Release
+          path: D:\a\GH-Offset-Dumper\GH-Offset-Dumper\GH-Offset-Dumper\bin\
